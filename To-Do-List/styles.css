@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  #todo-list {
+    margin: 0 auto;
+    width: 300px;
+  }
+  
+  #todo-list h1 {
+    text-align: center;
+  }
+  
+  #todo-list input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  #todo-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #todo-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  #todo-list li input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  #todo-list li label {
+    flex-grow: 1;
+  }
+  
+  #todo-list button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #todo-list button:hover {
+    background-color: #45a049;
+  }
+  
